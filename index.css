@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+.header{ 
+    linear-gradient : (to bottom, #000000, #434343, #000000);
+    height:750px;
+}
+.logo{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav{
+    margin: 0px 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0px;
+}
+ul{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);;
+    padding: 12px;
+    border-radius: 50px;
+}
+ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+.mar{
+    margin-right: 5px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+.active{
+    background-color:rgb(230, 83, 60);
+    padding: 10px 22px;
+    border-radius: 40px;
+    margin-left: -10px;
+    font-size: 20px;
+}
+.header-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    margin: -90px 180px;
+}
+.header-tittle{
+    color: rgb(255, 255, 255);
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.shape{
+    font-size: 50px;
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.header-image{
+    margin-left:30px;
+    margin-top: 70px;
+    height: 600px;
+    width: 400px;
+    background: url(images/Images\ 2.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.header-content{
+    width: 500px;
+    margin-top: 150px;
+    position: relative;
+}
+.description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px ;
+}
+.btn-primary{
+    padding: 15px 30px;
+    border-radius: 43px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.btn-transparent{
+    border: 1px solid rgb(204, 183, 183);
+    background: none;
+    margin-left: 8px;
+}
+.tutorial{
+    height: 90px;
+    width: 190px;
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 60px);
+    align-items: center;
+    margin-top: 250px;
+    margin-left: -100px;
+    color: #fff;
+    position: absolute;
+    
+}
+.colour{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 14px;
+    font-weight: 400;
+}
+.tutorial1{
+    height: 90px;
+    width: 160px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 300px;
+    color: #fff;
+    padding: 10px 0;
+}
+.radius{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(241, 33, 1);
+    margin-left: 10px;
+}
+.vdo{
+    width: 110px;
+    margin-top: 15px;
+}
+.number{
+    font-size: 35px;
+}
+.black{
+    color: black;
+}
+main{
+    background-color: black;
+}
+.habit{
+text-align: center;
+width:1044px;
+margin: 0px auto;
+
+}
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    margin: 0px auto;
+    width : 75%;
+}
+h2{
+    font-size: 48px;
+    width: 900px;
+    color: #fff;
+    margin: 0px auto;
+}
+h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 5px;
+
+}
+.habit-pic{
+    height:170px;
+    width: 170px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.run{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 200px;
+    padding: 30px;
+    background-color: rgb(34, 34, 34);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.run-content{
+    width: 500px;
+    text-align: start;
+}
+.pic-shafe{
+    height: 280px;
+    background: url(images/run.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.training-section{
+    margin: 30px auto;
+    text-align: start;
+}
+.training-tittle{
+    margin: 20px 0;
+}
+.first-img, .second-img{
+    display: flex;
+    flex-direction: row;
+}
+.training{
+    height: 250px;
+    width: 290px;
+}
+.scd{
+    width: 500px;
+}
+
+.team-section{
+    height: 750px;
+    width: 1044px;
+    margin: 0 auto;
+    text-align: center;
+}
+.grid-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    justify-content: center;
+    border-radius: 15px;
+}
+.meet{
+    height: 272px;
+    width: 326px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+
+
+}
+
+
+.footer{
+    background-color: rgb(34, 34, 34);
+    height: 380px;
+}
+.footer-container{
+    width: 1044px;
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+}
+hr{
+    width: 1044px;
+    height: 2px;
+    background-color: wheat;
+    margin: 0px auto;
+}
+.get{
+    margin-left: 100px;
+}
+.started{
+    margin-left: 130px;
+}
+.get>p{
+    margin-bottom: 8px;
+}
+.started>p{
+    margin-bottom: 8px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.the-end{
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bmi-description{
+    color: #fff;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+.rule{
+    margin-left: 495px;
+    margin-bottom: 88px;
+}
+.table-content{
+    height: 300px;
+    width: 100%;
+    margin-left: 150px;
+
+}
+.table-parents{
+    background-color: rgb(34, 34, 34);
+    display: grid;
+    grid-template-columns: repeat(2,500px)500px;
+    column-gap: 10px;
+    padding: 50px 0;
+}
+.table-chart{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+table{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 200px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: rgb(221, 218, 218);
+}
+.input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap:px;
+    text-align: center;
+}
+input{
+    width: 282px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+
+
+}
+.last{
+    width: 578px;
+}
+@media screen and (max-width: 576px){
+    *{
+        padding: 20px 10px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .nav{
+    margin-left: 0px;
+    }
+    ul{
+        display: none;
+    }
+    .header-content{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .header-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+        padding: 10px;
+        width: 550px;
+    }
+    .header-tittle{
+        font-size: 36px;
+        font-weight: 900;
+        width: 300px;
+        line-height: 60px;
+    }
+    p{
+        width: 300px;
+    }
+    .btn-primary{
+        width: 140px;
+        font-size: 14px;
+         padding: 10px 1px;
+         margin-left: 5px;
+
+    }
+    .header-image{
+        margin-left:5px;
+        margin-top: 10px;
+        height: 450px;
+        width: 300px;
+        margin-bottom: 60px;
+    }
+    .header{
+        height: auto;
+    }
+    .tutorial, .tutorial{
+        display: none;
+    }
+    h2{
+        font-size: 32px;
+        width: 600px;
+        color: #fff;
+        margin-left: -150px;
+    }
+.habit-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+        row-gap: 2px;
+        margin-left: -50px;
+    }
+    .habit-pic{
+        margin-bottom: 1px;
+    }
+    h5{
+        margin-bottom: 5px;
+    }
+    .habit{
+        margin: ;
+    }
+}
