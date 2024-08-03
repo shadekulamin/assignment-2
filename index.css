@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 .inter-font {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
   }
 .header{ 
-    linear-gradient : (to bottom, #000000, #434343, #000000);
+    background-image: repeating-linear-gradient(to bottom, #000000, #434343, #000000);
     height:750px;
 }
 .logo{
@@ -43,15 +43,15 @@ ul li{
 ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
 }
 .active{
     background-color:rgb(230, 83, 60);
     padding: 10px 22px;
     border-radius: 40px;
     margin-left: -10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .header-container{
     display: grid;
@@ -60,17 +60,18 @@ ul li a{
     margin: -90px 180px;
 }
 .header-tittle{
+    margin-top: 150px;
     color: rgb(255, 255, 255);
-    font-size: 68px;
+    font-size: 72px;
     font-weight: 900;
     line-height: 80px;
     margin-bottom: 20px;
 }
 .shape{
-    font-size: 50px;
+    font-size: 70px;
     font-family: "Playwrite BE VLG", cursive;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
 }
 .header-image{
@@ -81,29 +82,23 @@ ul li a{
     background: url(images/Images\ 2.png);
     background-position: center;
     background-size: cover;
-    
+    background-repeat: no-repeat;
 }
 
-
-.header-content{
-    width: 500px;
-    margin-top: 150px;
-    position: relative;
-}
 .description{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 20px ;
 }
 .btn-primary{
-    padding: 15px 30px;
+    padding: 10px 25px;
     border-radius: 43px;
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     border: none;
 }
 .btn-transparent{
@@ -112,17 +107,16 @@ ul li a{
     margin-left: 8px;
 }
 .tutorial{
-    height: 90px;
-    width: 190px;
-    background: rgba(255, 255, 255, 0.1);
-    opacity: 0.6;
+    height: 80px;
+    width: 160px;
+    margin-top: 200px;
+    margin-left: -40px;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(2, 60px);
     align-items: center;
-    margin-top: 250px;
-    margin-left: -100px;
     color: #fff;
     position: absolute;
     
@@ -167,19 +161,18 @@ main{
 .habit{
 text-align: center;
 width:1044px;
-margin: 0px auto;
-
+margin: 60px auto;
 }
 .habit-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 15px;
-    margin: 0px auto;
-    width : 75%;
+    column-gap: 75px;
+    margin: 10px auto;
+    width : 80%;
 }
 h2{
     font-size: 48px;
-    width: 900px;
+    width: 800px;
     color: #fff;
     margin: 0px auto;
 }
@@ -196,13 +189,14 @@ h5{
     border-radius: 50%;
     margin-bottom: 5px;
 }
+
 .run{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 200px;
     padding: 30px;
     background-color: rgb(34, 34, 34);
-    margin-top: 50px;
+    margin:70px auto;
     border-radius: 20px;
 }
 .run-content{
@@ -221,7 +215,7 @@ h5{
     text-align: start;
 }
 .training-tittle{
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .first-img, .second-img{
     display: flex;
@@ -238,16 +232,16 @@ h5{
 .team-section{
     height: 750px;
     width: 1044px;
-    margin: 0 auto;
+    margin: 60px  auto 0px;
     text-align: center;
 }
 .grid-img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 10px;
-    row-gap: 15px;
+    column-gap: 5px;
+    row-gap: 10px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    padding: 15px;
     justify-content: center;
     border-radius: 15px;
 }
@@ -351,11 +345,12 @@ table{
 }
 input{
     width: 282px;
-    height: 48px;
+    height: 35px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     border: none;
     margin-bottom: 10px;
+    padding: 0px 20px;
 
 
 }
@@ -364,7 +359,8 @@ input{
 }
 @media screen and (max-width: 576px){
     *{
-        padding: 20px 10px;
+        max-width: 570px;
+        padding: 5px;
     }
     .logo{
         width: 100%;
@@ -375,66 +371,125 @@ input{
     ul{
         display: none;
     }
-    .header-content{
-        width: 100%;
-        margin-top: 10px;
-    }
     .header-container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 30px;
-        padding: 10px;
-        width: 550px;
+        margin: 5px;
+        margin-top: -200px; 
     }
     .header-tittle{
-        font-size: 36px;
+        font-size: 50px;
         font-weight: 900;
         width: 300px;
         line-height: 60px;
+        margin-left: -9px;
     }
-    p{
-        width: 300px;
+    .tittle-description{
+        width: 350px;
     }
     .btn-primary{
-        width: 140px;
+        width: 180px;
         font-size: 14px;
          padding: 10px 1px;
-         margin-left: 5px;
+         margin: 10px;
 
     }
     .header-image{
-        margin-left:5px;
-        margin-top: 10px;
-        height: 450px;
-        width: 300px;
+        margin-top: 70px;
+        height: 800px;
+        width: 100%;
         margin-bottom: 60px;
     }
     .header{
         height: auto;
     }
-    .tutorial, .tutorial{
+    .tutorial{
+        margin-top: 210px;
+        margin-left: 30px;
+        height: 110px;
+        width: 180px;
+    }
+    .tutorial1{
+        margin-top: 50px;
+        margin-left: 270px;
+        text-align: start;
+        padding: 10px;
+    }
+    
+    .habit-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px auto;
+        width : 80%;
+    }
+    .padding{
+        padding: 5px 100px;
+    }
+    .run{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 0px;
+        background-color: rgb(34, 34, 34);
+        margin:0px auto;
+        border-radius: 20px;
+        width: 480px;
+        padding: 10px;
+    }
+    .width{
+        width: 400px;
+    }
+    .pic-shafe{
+        width: 460px;
+    }
+    .training-image{
         display: none;
     }
-    h2{
-        font-size: 32px;
-        width: 600px;
-        color: #fff;
-        margin-left: -150px;
+    .bmi-description{
+        margin-left: 5px;
+        width: 470px;
     }
-.habit-container{
-        width: 100%;
+    .table-parents{
+        background-color: rgb(34, 34, 34);
         display: grid;
-        grid-template-columns: repeat(1, 300px);
-        row-gap: 2px;
-        margin-left: -50px;
+        grid-template-columns: repeat(1,1fr);
+        padding: 50px 20px;
     }
-    .habit-pic{
-        margin-bottom: 1px;
+    .table-calculate{
+        width: 450px;
     }
-    h5{
-        margin-bottom: 5px;
+    input{
+        width: 195px;
+        column-gap: 10px;
     }
-    .habit{
-        margin: 4px;
+    .last{
+        width: 420px;
+        margin-left: 10px;
+    }
+    .table-content{
+        margin-left: 10px;
+    }
+    table{
+        width: 400px;
+    }
+    .grid-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 0px;
+        border-radius: 15px;
+        width: 550px;
+        height:1400px;
+        background: black;
+    }
+    .meet{
+        height: 220px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        margin: auto;
+    }
+    .footer{
+        margin-top: 770px;
     }
 }
