@@ -53,6 +53,11 @@ ul li a{
     margin-left: -10px;
     font-size: 18px;
 }
+.menu{
+    height: 40px;
+    width: 40px;
+    display: none;
+}
 .header-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -323,7 +328,7 @@ hr{
     background-color: rgb(34, 34, 34);
     display: grid;
     grid-template-columns: repeat(2,400px)500px;
-    column-gap: 10px;
+    column-gap: 5px;
     padding: 50px 0;
     width: 1044px;
     margin: 0px auto;
@@ -358,7 +363,7 @@ input{
     border-radius: 8px;
     border: none;
     margin-bottom: 10px;
-    padding: 0px 20px;
+    padding: 0px 10px;
 
 
 }
@@ -388,8 +393,8 @@ input{
         width: 100%;
     }
     .header-tittle{
-        font-size: 50px;
-        font-weight: 900;
+        font-size: 40px;
+        font-weight: 800;
         width: 300px;
         line-height: 60px;
         margin-left: -9px;
@@ -409,9 +414,15 @@ input{
         height: 800px;
         width: 100%;
         margin-bottom: 60px;
+        background-size:cover;
+        background-repeat: center;
+        margin-left: 0px;
     }
     .header{
         height: auto;
+    }
+    .nav, .header-container{
+        margin-left: 20px;
     }
     .tutorial{
         margin-top: 210px;
@@ -472,7 +483,7 @@ input{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         padding: 50px 20px;
-        width: 300px;
+        width: 375px;
     }
     .table-calculate{
         width: 450px;
@@ -518,7 +529,7 @@ input{
     }
     .team-section{
         max-width: 500px;
-        background: red;
+        height: 1540px;
         margin: 5px;
     }
     .grid-img{
@@ -537,7 +548,36 @@ input{
     .pic-shafe{
         width: 350px;
     }
+    .menu{
+        display: block;
+    }
+    .changed, .training-tittle, .bmi-tittle{
+        width: 300px;
+        font-size: 23px;
+    }
+    .description{
+        width: 380px;
+    }
+    table{
+        width: 300px;
+    }
+    input{
+        width: 180px;
+        margin-left: -60px;
+    }
+    .team{
+        margin-left: -180px;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .meet-tool{
+        margin-left: -100px;
+    }
+    .footer{
+        margin-top: -5px;
+        height: 600px;
+    }
 }
-*{
+{
     border: 1px solid red;
 }
