@@ -160,7 +160,7 @@ main{
 }
 .habit{
 text-align: center;
-width:1044px;
+width:80%;
 margin: 60px auto;
 }
 .habit-container{
@@ -220,18 +220,24 @@ h5{
 .first-img, .second-img{
     display: flex;
     flex-direction: row;
+    width: 60%;
+}
+.second-img{
+    width:60%;
 }
 .training{
     height: 250px;
-    width: 290px;
+    width: 250px;
 }
 .scd{
     width: 500px;
 }
-
+.fourth{
+    width: 283px;
+}
 .team-section{
     height: 750px;
-    width: 1044px;
+    width: 80%;
     margin: 60px  auto 0px;
     text-align: center;
 }
@@ -261,14 +267,14 @@ h5{
     height: 380px;
 }
 .footer-container{
-    width: 1044px;
+    width: 80%;
     padding: 50px 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
 }
 hr{
-    width: 1044px;
+    width: 80%;
     height: 2px;
     background-color: wheat;
     margin: 0px auto;
@@ -310,15 +316,17 @@ hr{
 .table-content{
     height: 300px;
     width: 100%;
-    margin-left: 150px;
+    margin-left: 110px;
 
 }
 .table-parents{
     background-color: rgb(34, 34, 34);
     display: grid;
-    grid-template-columns: repeat(2,500px)500px;
+    grid-template-columns: repeat(2,400px)500px;
     column-gap: 10px;
     padding: 50px 0;
+    width: 1044px;
+    margin: 0px auto;
 }
 .table-chart{
     color: rgb(255, 255, 255);
@@ -360,7 +368,8 @@ input{
 @media screen and (max-width: 576px){
     *{
         max-width: 570px;
-        padding: 5px;
+        padding: 0px;
+
     }
     .logo{
         width: 100%;
@@ -376,6 +385,7 @@ input{
         grid-template-columns: repeat(1, 1fr);
         margin: 5px;
         margin-top: -200px; 
+        width: 100%;
     }
     .header-tittle{
         font-size: 50px;
@@ -432,8 +442,17 @@ input{
         background-color: rgb(34, 34, 34);
         margin:0px auto;
         border-radius: 20px;
-        width: 480px;
+        width: 380px;
         padding: 10px;
+    }
+    .run-content{
+        width: 270px;
+        border: 3px soid green;
+    }
+    .run-tittle{
+        width: 280px;
+        margin-left: 10px;
+        font-size: 30px;
     }
     .width{
         width: 400px;
@@ -453,6 +472,7 @@ input{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         padding: 50px 20px;
+        width: 300px;
     }
     .table-calculate{
         width: 450px;
@@ -492,4 +512,32 @@ input{
     .footer{
         margin-top: 770px;
     }
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-section{
+        max-width: 500px;
+        background: red;
+        margin: 5px;
+    }
+    .grid-img{
+        max-width: 335px;
+    }
+    header{
+        width: 450px;
+    }
+    .habit{
+        margin-left: 10px;
+    }
+    .habit-container{
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .pic-shafe{
+        width: 350px;
+    }
+}
+*{
+    border: 1px solid red;
 }
