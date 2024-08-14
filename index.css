@@ -431,8 +431,8 @@ input{
         width: 180px;
     }
     .tutorial1{
-        margin-top: 50px;
-        margin-left: 270px;
+        margin-top: 80px;
+        margin-left: 200px;
         text-align: start;
         padding: 10px;
     }
@@ -575,7 +575,15 @@ input{
     }
     .footer{
         margin-top: -5px;
-        height: 600px;
+        height: 650px;
+    }
+    .get{
+        margin-top: 40px;
+
+    }
+    .started{
+        margin-top: 40px;
+        margin-left: 100px;
     }
 }
 {
